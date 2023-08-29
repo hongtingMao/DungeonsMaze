@@ -1,0 +1,260 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1693351005556092, "dur":6828, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005562926, "dur":58, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005563015, "dur":447, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005564045, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":0, "ts":1693351005565070, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1693351005566300, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1693351005563486, "dur":3140, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005566628, "dur":135612, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005702241, "dur":288, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005702529, "dur":274, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005702992, "dur":1274, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1693351005563631, "dur":3002, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693351005566635, "dur":2876, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693351005574930, "dur":487, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1693351005575421, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693351005575598, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1693351005575958, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005576166, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005576381, "dur":342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005576724, "dur":161, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005576887, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005577316, "dur":449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005577766, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005577928, "dur":501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\UnityFile\\Raccoon\\Maze Test\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1693351005578493, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb4e13295-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1693351005575420, "dur":3367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693351005579114, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1693351005579435, "dur":120243, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693351005700688, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693351005700688, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1693351005700833, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1693351005563669, "dur":3000, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693351005566672, "dur":417, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693351005567090, "dur":2440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1693351005569532, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693351005577435, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1693351005580889, "dur":10960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005591903, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005603067, "dur":11485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005614584, "dur":12652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005627266, "dur":10556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005637850, "dur":9594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005647529, "dur":9164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1693351005656732, "dur":11300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1693351005668066, "dur":5732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1693351005673823, "dur":28418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693351005563659, "dur":2979, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693351005566644, "dur":451, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693351005567095, "dur":2470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1693351005569566, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693351005573949, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693351005578589, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1693351005582919, "dur":10640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005593583, "dur":10926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005604565, "dur":11599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005616202, "dur":12789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005629024, "dur":10355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005639404, "dur":9615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1693351005649099, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1693351005651919, "dur":22871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1693351005674805, "dur":27445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693351005563727, "dur":2949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693351005566679, "dur":413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693351005567093, "dur":2480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1693351005569574, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693351005573140, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1693351005578624, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1693351005582756, "dur":10873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005593656, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005604572, "dur":11633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005616241, "dur":12776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005629053, "dur":10548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005639625, "dur":10389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1693351005650037, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1693351005653427, "dur":20364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1693351005673815, "dur":28432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693351005563775, "dur":2907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693351005566706, "dur":403, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693351005567110, "dur":2413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1693351005569524, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1693351005575797, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1693351005581025, "dur":10882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005591942, "dur":10901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005602878, "dur":11515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005614421, "dur":12798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005627249, "dur":10444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005637720, "dur":9568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005647313, "dur":9295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1693351005656773, "dur":11277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1693351005668072, "dur":34170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693351005563808, "dur":2903, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693351005566712, "dur":403, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693351005567115, "dur":2413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1693351005569529, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1693351005574749, "dur":4443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1693351005580405, "dur":11023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005591457, "dur":10547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005602032, "dur":11727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005613813, "dur":12910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005626765, "dur":10660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005637469, "dur":9583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005647080, "dur":9054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1693351005656593, "dur":3306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1693351005660015, "dur":10597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1693351005670637, "dur":31615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693351005563836, "dur":2878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693351005566716, "dur":402, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693351005567118, "dur":2407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1693351005569567, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693351005569526, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693351005575759, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1693351005580906, "dur":11677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005592606, "dur":11070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005603733, "dur":11588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005615356, "dur":12957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005628349, "dur":10556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005638930, "dur":9494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005648449, "dur":8987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1693351005657472, "dur":10496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1693351005668009, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1693351005673462, "dur":28796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693351005563864, "dur":2939, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693351005566807, "dur":369, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693351005567176, "dur":2342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693351005569521, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1693351005569580, "dur":127, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1693351005573831, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1693351005579763, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1693351005583952, "dur":11328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005595310, "dur":11446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005606781, "dur":11976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005618818, "dur":12981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005631853, "dur":9644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005641521, "dur":9882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1693351005651434, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1693351005655510, "dur":11263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1693351005666837, "dur":7730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1693351005674586, "dur":27651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693351005563909, "dur":2903, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693351005566815, "dur":331, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693351005567146, "dur":2425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1693351005569577, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1693351005569572, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1693351005574513, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1693351005579829, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1693351005582477, "dur":10806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005593308, "dur":10916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005604253, "dur":11900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005616190, "dur":12690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005628905, "dur":10577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005639512, "dur":9822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1693351005649373, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693351005652385, "dur":33714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1693351005686114, "dur":16140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693351005563936, "dur":2883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693351005566820, "dur":2697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1693351005569520, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1693351005573549, "dur":5133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1693351005578702, "dur":612, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":10, "ts":1693351005578701, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze.exe" }}
+,{ "pid":12345, "tid":10, "ts":1693351005579330, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze.exe" }}
+,{ "pid":12345, "tid":10, "ts":1693351005582079, "dur":10858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005592982, "dur":11067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005604076, "dur":11733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005615866, "dur":12782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005628675, "dur":10419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005639119, "dur":9678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005648855, "dur":28599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1693351005677491, "dur":24774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693351005563982, "dur":2845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693351005566828, "dur":2687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1693351005569534, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1693351005569520, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1693351005575528, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1693351005579016, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005581932, "dur":10810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005592766, "dur":10967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005603765, "dur":11635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005615430, "dur":12764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005628222, "dur":10729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005639029, "dur":9585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005648662, "dur":8936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1693351005657634, "dur":10519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1693351005668182, "dur":34064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693351005564012, "dur":2821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693351005566834, "dur":2679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693351005569525, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1693351005575890, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1693351005579246, "dur":9175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005588465, "dur":12115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005600620, "dur":10991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005611646, "dur":12516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005624197, "dur":11088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005635318, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005645006, "dur":10458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1693351005655515, "dur":9932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1693351005665545, "dur":7493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1693351005673068, "dur":29200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693351005564039, "dur":2801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693351005566840, "dur":2674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1693351005569566, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1693351005569525, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1693351005573160, "dur":4675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1693351005578556, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1693351005583072, "dur":10907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005594008, "dur":10717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005604758, "dur":11634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005616423, "dur":12696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005629148, "dur":10517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005639743, "dur":9919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1693351005649692, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1693351005652827, "dur":9039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":13, "ts":1693351005661943, "dur":10008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1693351005671986, "dur":30271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693351005564094, "dur":2753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693351005566847, "dur":2727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1693351005569574, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1693351005574719, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1693351005577509, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1693351005582329, "dur":10630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005592990, "dur":11010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005604025, "dur":11675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005615730, "dur":12927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005628684, "dur":10502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005639211, "dur":9409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005648671, "dur":8904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1693351005657612, "dur":10756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level2.resS" }}
+,{ "pid":12345, "tid":14, "ts":1693351005668392, "dur":33846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693351005564211, "dur":2647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693351005566859, "dur":2705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1693351005569581, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1693351005569572, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1693351005576144, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1693351005580880, "dur":11019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005591927, "dur":10325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005602289, "dur":11638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005613966, "dur":12944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005626949, "dur":10682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005637676, "dur":9420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005647122, "dur":8988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1693351005656163, "dur":9434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1693351005665639, "dur":7556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1693351005673216, "dur":29028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693351005564240, "dur":2625, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693351005566866, "dur":2655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1693351005569573, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\Unity\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1693351005569522, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1693351005575959, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1693351005581496, "dur":10952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005592473, "dur":10882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005603380, "dur":11566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005614985, "dur":12764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005627796, "dur":10523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005638344, "dur":9617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005647989, "dur":9498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1693351005657566, "dur":11622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Riku/Desktop/Raccoon Maze/Raccoon Maze_Data/level3" }}
+,{ "pid":12345, "tid":16, "ts":1693351005669209, "dur":33036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1693351005706149, "dur":1013, "ph":"X", "name": "ProfilerWriteOutput" }
+,
