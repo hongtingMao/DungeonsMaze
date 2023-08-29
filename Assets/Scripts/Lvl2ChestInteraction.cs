@@ -1,20 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;  // <-- Add this line
-using UnityEngine.SceneManagement;
+using UnityEngine.Audio;  
 
 
 
-public class ChestInteraction : MonoBehaviour
+public class Lvl2ChestInteraction : MonoBehaviour
 {
     public PlayerAttributes playerAttributes; // Assign this in the Inspector
+    public GameObject GameClear;
     private Animator ChestOpen;
     private AudioSource ChestSound;
     private AudioClip ChestClip;
     private bool playerNearChest = false;
-
-    public string nextLevelName;
 
     void Start()
     {
@@ -54,7 +52,7 @@ public class ChestInteraction : MonoBehaviour
             {
                 ChestOpen.SetTrigger("Open");
                 PlayChestSound();
-                LoadNextLevel();
+                GameClearUI();
             }
             else
             {
@@ -75,9 +73,12 @@ public class ChestInteraction : MonoBehaviour
         }
     }
 
-    private void LoadNextLevel()
+    private void GameClearUI()
     {
-        SceneManager.LoadScene(nextLevelName); // Load the next level by name
+        if (GameClear != null)
+        {
+            GameObject uiInstance = Instantiate(GameClear); 
+        }
     }
 
 }
